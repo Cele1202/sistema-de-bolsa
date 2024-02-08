@@ -1,6 +1,7 @@
 import React from 'react';
 
 const listaDesordenada = ({ acciones }) => {
+  //Esta funcion retorna un componente
   return (
     <ul>
       {acciones.map((accion, index) => (
